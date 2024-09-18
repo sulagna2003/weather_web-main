@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sulagna2003/weather_web-main/static/css/main.f8245e8c.css",
+    "main.js": "/sulagna2003/weather_web-main/static/js/main.96446f4a.js",
+    "static/js/787.4bc6d4b6.chunk.js": "/sulagna2003/weather_web-main/static/js/787.4bc6d4b6.chunk.js",
+    "static/media/card2.jpeg": "/sulagna2003/weather_web-main/static/media/card2.0867dc8ba04c88043d4d.jpeg",
+    "static/media/bg.jpeg": "/sulagna2003/weather_web-main/static/media/bg.332fc672f75cdb96da40.jpeg",
+    "index.html": "/sulagna2003/weather_web-main/index.html",
+    "main.f8245e8c.css.map": "/sulagna2003/weather_web-main/static/css/main.f8245e8c.css.map",
+    "main.96446f4a.js.map": "/sulagna2003/weather_web-main/static/js/main.96446f4a.js.map",
+    "787.4bc6d4b6.chunk.js.map": "/sulagna2003/weather_web-main/static/js/787.4bc6d4b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8245e8c.css",
+    "static/js/main.96446f4a.js"
+  ]
+}
