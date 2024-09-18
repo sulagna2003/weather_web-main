@@ -1,8 +1,7 @@
 # WeatherSite
+![Screenshot 2024-09-13 004748](https://github.com/user-attachments/assets/14ae507e-767a-43ca-a7f1-83f661e1539e)
 
-![Screenshot 2024-09-13 004748](https://github.com/user-attachments/assets/fb24a69d-2115-4749-b0a4-5ddb67cc8bb7)
-
-![Screenshot 2024-09-13 004735](https://github.com/user-attachments/assets/2316998e-0ded-4ddb-8a49-4eab6df415fe)
+![Screenshot 2024-09-13 004735](https://github.com/user-attachments/assets/62f2113b-b791-44e1-aa10-ccf7f676ab7a)
 
 # Overview
 Weather_website is a website which allows the user to search the weather condition of any city in the world, providing information as temp ,wind speed ,humidity .Additionally its provides information that in upcoming four days when will be the maxm and minimum temp will be haapen.
