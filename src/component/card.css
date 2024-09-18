@@ -1,0 +1,262 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css");
+
+
+.box-container{
+    height: 750px;
+    margin:90px;
+    margin-left: 520px;
+    width: 950px;
+}
+.box{
+    height: 750px;
+    width: 950px;
+   box-shadow: -3px 7px 3px rgb(22, 21, 21) ,3px 4px 3px rgb(22, 21, 21);
+   position: relative;
+   
+}
+.box:hover{
+      scale: 1.04;
+}
+.box1{
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    background-image: url(../images/card2.jpeg);
+    background-size: cover;
+}
+ .icon-container{
+    height: 10%;
+    width: 10%;
+    float:inline-start;
+}
+.icon{
+    padding:4px 0;
+    height: 250%;
+    margin-top: -2px;
+    margin-left:160px;
+}
+
+
+.box2{
+    height: 100%;
+    width: 50%;
+  
+    background-color: rgba(8, 8, 8, 0.95);
+    background: linear-gradient(to left,rgb(0, 0, 0),rgb(40, 38, 38));
+    opacity: 0.9;
+    float: right;
+   
+    
+   
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+    margin-top: 150px;
+   
+  }
+  .search-box .img-box {
+    background: rgb(255, 255, 255, 0.2);
+    border-radius: 50%;
+    height: 32px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+  }
+  .search-box img {
+    width: 60%;
+    cursor: pointer;
+  }
+  .search-box .search-bar {
+    border: none;
+    padding: 10px 11px;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid;
+    font-size: 16px;
+  }
+  .search-box .search-bar::placeholder {
+    color: white;
+  }
+  .search-bar:focus {
+    outline: none;
+    border-bottom: 1px solid gray;
+    transition: all 1s ease-in-out;
+  }
+  .box2 h3 {
+    text-transform: capitalize;
+    font-size: 50px;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto 10px;
+    padding-bottom: 10px;
+    border-width: thin;
+    border-bottom: 1px solid #eee;
+  }
+  .cityHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+ 
+  .box2 ul li {
+    width: 74%;
+    margin: 0 auto;
+    line-height: 39px;
+    border-width: thin;
+    border-bottom: 1px solid #777;
+    color: #eee;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 20px;
+   list-style: none;
+   padding: 10px;
+  }
+  
+  .box2 ul li span {
+    float: right;
+    padding-right: 10px;
+  }
+  
+  .box2 ul li:nth-child(5) {
+    border-bottom: none;
+  }
+ .humidity-icon{
+  padding-right:10px;
+  display:inline;
+ 
+  font-size: larger;
+ }
+ .wind-icon{
+  padding-right:10px;
+  display:inline;
+  font-size: 16px;
+  
+ }
+ .visi-icon{
+  padding-right:10px;
+  display:inline;
+  font-size: 18px;
+  
+ }
+ .temp-icon{
+  display: inline-block;
+  padding-right: 10px;
+  font-size: larger;
+ }
+
+ .current-time {
+  font-size: 35px;
+  font-weight: 100;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.current-date {
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+
+.date-time {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  width: 90%;
+  padding: 0 30px 14px 30px;
+  font-family: "Oxygen", sans-serif;
+  
+}
+
+div#txt {
+  font-size: 35px;
+  font-weight: 100;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.dmy {
+  float: left;
+  text-align: left;
+
+}
+
+.temperature {
+  width: 50%;
+  float: right;
+  position: relative;
+  left: 10px;
+}
+
+.temperature p {
+  font-family: "Raleway", sans-serif;
+  font-size: 80px;
+  font-weight: 100;
+  margin: 0 -165px ;
+  margin-bottom: 10px;
+}
+
+.temperature p span {
+  font-size: 50px;
+  font-weight: 200;
+}
+.inputfile{
+  margin-top: 10px;
+}
+#error{
+   font-size: 25px;
+   padding: 35px;
+}
+canvas{
+  margin-left: 179px;
+    margin-top: 35px;
+}
+.p{
+  font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.h1{
+  font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.location{
+  font-size: 22px;
+  text-align: right;
+}
+#state{
+  font-size: 35px;
+  display: inline-block;
+  margin-top: -47px;
+    padding-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+#city{
+  display: inline-block;
+  padding: 12px;
+    margin-bottom: 9px;
+    font-family:cursive;
+  letter-spacing: 2px;
+}
+.material-icons{
+  color: #c6bfbf;
+  font-size: 20px;
+}
+ 
+
+
+
+
+
+
+ 
+ 
